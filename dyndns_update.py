@@ -12,13 +12,13 @@ PASSWORD = os.getenv("DYNDNS_PASSWORD")
 
 ipv4 = None
 try:
-    ipv4 = requests.get("https://api.ipify.org").text
+    ipv4 = requests.get("https://api4.ipify.org").text
 except Exception:
     pass
 
 ipv6 = None
 try:
-    ipv6 = requests.get("https://api64.ipify.org").text
+    ipv6 = requests.get("https://api6.ipify.org").text
 except Exception:
     pass
 
